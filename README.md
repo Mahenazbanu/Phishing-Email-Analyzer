@@ -51,7 +51,7 @@ cd Phishing-Email-Analyzer
 2. Install dependencies
 
 ```bash
-pip install -r requirements.txt   # (create one if needed, or use the line above)
+pip install -r requirements.txt
 ```
 
 3. Run analysis on an .eml file
@@ -65,7 +65,7 @@ python phishing_analyzer_text.py sample_email.eml --verbose
 PDF report with email delivery (enhanced)
 
 ```bash
-python phishing_analyzer_enhanced.py suspicious.eml --send-to security@example.com
+python phishing_analyzer_enhanced.py suspicious.eml --send-to security@example.com #your email
 ```
 
 ---
